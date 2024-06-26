@@ -166,7 +166,7 @@ checkoutBtn.addEventListener('click', function() {
     }).join();
     
     const message = encodeURIComponent(cartItems);
-    const phone = '+393516228270';
+    const phone = ''; /* Adicionar o número do telefone */
 
     window.open(`https://wa.me/${phone}/?text=${message} Endereço: ${adressInput.value}`, '_blank');
 
